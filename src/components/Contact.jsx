@@ -8,7 +8,7 @@ const Contact = () => {
         <h1 className="uppercase font-light text-[#777]">Contact Us</h1>
       </div>
       <div>
-        <form className="flex flex-col gap-4 w-[500px]">
+        <form className="flex flex-col gap-4 md:w-[500px] w-full">
           <input
             className="bg-[#f3f3f3] py-3 px-5"
             type="text"
@@ -19,6 +19,7 @@ const Contact = () => {
             type="number"
             placeholder="Phone Number*"
             required
+            max={9999999999}
           />
           <input
             className="bg-[#f3f3f3] py-3 px-5"

@@ -7,29 +7,29 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <div className="bg-[#fafafa] h-[400px] flex items-center justify-between px-[100px] my-[50px]">
+    <div className="bg-[#fafafa] flex md:flex-row flex-col items-center justify-between gap-8 md:px-[100px] px-[20px] my-[50px] py-[50px]">
       <div className="flex items-center gap-4">
-        <div className="flex flex-col gap-4 pt-[70px]">
+        <div className="flex md:flex-col flex-row md:gap-4 gap-2">
           <img
-            className="w-[250px] h-[250px] object-cover bg-[#c4c4c4]"
+            className="md:w-[250px] w-[50%] h-[250px] object-cover bg-[#c4c4c4]"
             src={about_1}
             alt=""
           />
           <img
-            className="w-[250px] h-[150px] object-cover bg-[#c4c4c4]"
+            className="md:w-[250px] w-[50%] h-[250px] object-cover bg-[#c4c4c4]"
             src={about_2}
             alt=""
           />
         </div>
         <div>
           <img
-            className="w-[250px] h-[300px] object-cover bg-[#c4c4c4]"
+            className="md:w-[250px] w-full md:h-[300px] h-[250px] object-cover bg-[#c4c4c4]"
             src={about_3}
             alt=""
           />
         </div>
       </div>
-      <div className="flex flex-col gap-4 w-[400px]">
+      <div className="flex flex-col gap-4 md:w-[400px] w-full">
         <div className="text-5xl">
           <h1 className="uppercase font-light text-[#777]">About</h1>
         </div>
@@ -42,7 +42,7 @@ const About = () => {
           quo at quisquam ipsam quasi!
         </div>
         <Link to="/about">
-          <div className="bg-white flex items-center gap-4 pl-4 uppercase font-light w-[250px] h-[70px]">
+          <div className="bg-white flex items-center justify-center gap-4 uppercase font-light w-[200px] h-[70px]">
             Read More <BsArrowRight />
           </div>
         </Link>

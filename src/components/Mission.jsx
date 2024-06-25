@@ -8,8 +8,8 @@ const Mission = () => {
           Main Focus/Mission Statement
         </h1>
       </div>
-      <div className="flex gap-8">
-        <div className="flex items-center w-[50%]">
+      <div className="flex md:flex-row flex-col gap-8">
+        <div className="flex items-center md:w-[50%] w-full">
           <div className="text-8xl text-[#e2e2e2]">1</div>
           <div className="text-lg px-6">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum nam
@@ -17,7 +17,7 @@ const Mission = () => {
             amet illo!
           </div>
         </div>
-        <div className="flex items-center w-[50%]">
+        <div className="flex items-center md:w-[50%] w-full">
           <div className="text-8xl text-[#e2e2e2]">2</div>
           <div className="text-lg px-6">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum nam

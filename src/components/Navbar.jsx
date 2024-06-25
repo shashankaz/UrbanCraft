@@ -1,12 +1,17 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import { RxHamburgerMenu } from "react-icons/rx";
+import icon from "../assets/icon.png";
 
 const Navbar = () => {
   return (
-    <div className="h-[100px] md:px-[80px] px-[20px] flex items-center justify-between">
+    <div className="h-[100px] md:px-[80px] px-[20px] pb-2 flex items-center justify-between">
       <div className="md:text-3xl text-2xl uppercase">
-        <Link to={"/"}>UrbanCraft</Link>
+        <Link to={"/"}>
+          <div className="flex items-center">
+            <img className="w-8" src={icon} alt="" /> UrbanCraft
+          </div>
+        </Link>
       </div>
       <div>
         <ul className="md:flex hidden text-[#333] uppercase gap-10">

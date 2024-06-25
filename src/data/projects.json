@@ -1,0 +1,39 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Residential Building",
+      "description": "A multi-story residential building providing modern amenities and sustainable living solutions.",
+      "image": "residential_building.jpg",
+      "slug": "residential-building"
+    },
+    {
+      "id": 2,
+      "title": "Commercial Complex",
+      "description": "A state-of-the-art commercial complex with energy-efficient features and ample parking space.",
+      "image": "commercial_complex.jpg",
+      "slug": "commercial-complex"
+    },
+    {
+      "id": 3,
+      "title": "Bridge Construction",
+      "description": "A high-capacity bridge designed to withstand heavy traffic and harsh weather conditions.",
+      "image": "bridge_construction.jpg",
+      "slug": "bridge-construction"
+    },
+    {
+      "id": 4,
+      "title": "Renovation Project",
+      "description": "Complete renovation of an old heritage building, preserving its historical value while adding modern facilities.",
+      "image": "renovation_project.jpg",
+      "slug": "renovation-project"
+    },
+    {
+      "id": 5,
+      "title": "Industrial Warehouse",
+      "description": "Construction of a large industrial warehouse with advanced storage solutions and logistics support.",
+      "image": "industrial_warehouse.jpg",
+      "slug": "industrial-warehouse"
+    }
+  ]
+}

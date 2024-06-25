@@ -7,6 +7,7 @@ import { FaPhone } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLocationDot } from "react-icons/fa6";
 import { IoMail } from "react-icons/io5";
+import logo from "../assets/logo.png";
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -14,7 +15,9 @@ const Footer = () => {
   return (
     <div className="bg-[#2c2c2c]">
       <div className="min-h-[330px] md:px-[80px] px-[20px] py-[50px] flex flex-wrap md:gap-8 gap-6 text-white">
-        <div className="uppercase w-[275px] md:text-3xl text-2xl">UrbanCraft</div>
+        <div className="uppercase w-[275px] md:text-3xl text-2xl">
+          <img className="h-[150px]" src={logo} alt="" />
+        </div>
         <div className="w-[275px]">
           <ul className="flex flex-col gap-4 md:text-lg">
             <li className="md:text-xl text-lg font-bold pb-2">Information</li>
