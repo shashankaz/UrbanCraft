@@ -10,7 +10,7 @@ const NotFound = () => {
       </div>
       <div>
         <p className="text-center">
-          The Page you are looking for doesn't exist or an other error occurred.{" "}
+          The Page you are looking for doesn't exist or an other error occurred.
           <br />
           Go back, or head over to <Link to={"/"}>URBANCRAFT</Link> to choose a
           new direction.

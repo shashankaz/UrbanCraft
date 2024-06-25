@@ -2,7 +2,7 @@ import React from "react";
 
 const Mission = () => {
   return (
-    <div className="my-[50px] mt-[100px]">
+    <div className="my-[50px]">
       <div className="text-5xl my-[50px]">
         <h1 className="uppercase font-light text-[#777]">
           Main Focus/Mission Statement
