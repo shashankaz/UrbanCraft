@@ -28,7 +28,10 @@ const Contact = () => {
         <h1 className="uppercase font-light text-[#777]">Contact Us</h1>
       </div>
       <div className="flex md:flex-row flex-col-reverse justify-between gap-4">
-        <form className="flex flex-col gap-4 md:w-[500px] w-full">
+        <form
+          className="flex flex-col gap-4 md:w-[500px] w-full"
+          onSubmit={handleSubmit}
+        >
           <input
             className="bg-[#f3f3f3] py-3 px-5"
             type="text"
@@ -69,14 +72,15 @@ const Contact = () => {
             value={message}
             onChange={(e) => setMessage(e.target.value)}
           ></textarea>
-          <button onClick={handleSubmit}>
-            <div className="bg-[#333] text-white flex items-center justify-center gap-4 uppercase font-light w-[220px] h-[70px] mt-[50px]">
-              Send Email <BsArrowRight />
-            </div>
+          <button
+            className="bg-[#333] text-white flex items-center justify-center gap-4 uppercase font-light w-[220px] h-[70px] mt-[50px]"
+            type="submit"
+          >
+            Send Email <BsArrowRight />
           </button>
-          <ToastContainer />
         </form>
       </div>
+      <ToastContainer />
     </div>
   );
 };

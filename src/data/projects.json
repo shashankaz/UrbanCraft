@@ -1,144 +1,142 @@
-{
-  "projects": [
-    {
-      "id": 1,
-      "title": "Residential Building",
-      "description": "A multi-story residential building providing modern amenities and sustainable living solutions.",
-      "image": "residential_building.jpg",
-      "slug": "residential-building"
-    },
-    {
-      "id": 2,
-      "title": "Commercial Complex",
-      "description": "A state-of-the-art commercial complex with energy-efficient features and ample parking space.",
-      "image": "commercial_complex.jpg",
-      "slug": "commercial-complex"
-    },
-    {
-      "id": 3,
-      "title": "Bridge Construction",
-      "description": "A high-capacity bridge designed to withstand heavy traffic and harsh weather conditions.",
-      "image": "bridge_construction.jpg",
-      "slug": "bridge-construction"
-    },
-    {
-      "id": 4,
-      "title": "Renovation Project",
-      "description": "Complete renovation of an old heritage building, preserving its historical value while adding modern facilities.",
-      "image": "renovation_project.jpg",
-      "slug": "renovation-project"
-    },
-    {
-      "id": 5,
-      "title": "Industrial Warehouse",
-      "description": "Construction of a large industrial warehouse with advanced storage solutions and logistics support.",
-      "image": "industrial_warehouse.jpg",
-      "slug": "industrial-warehouse"
-    },
-    {
-      "id": 6,
-      "title": "Office Building",
-      "description": "A modern office building with open floor plans and eco-friendly features.",
-      "image": "office_building.jpg",
-      "slug": "office-building"
-    },
-    {
-      "id": 7,
-      "title": "Shopping Mall",
-      "description": "A large shopping mall with a variety of retail stores, food courts, and entertainment options.",
-      "image": "shopping_mall.jpg",
-      "slug": "shopping-mall"
-    },
-    {
-      "id": 8,
-      "title": "School Campus",
-      "description": "A state-of-the-art school campus with modern classrooms, laboratories, and sports facilities.",
-      "image": "school_campus.jpg",
-      "slug": "school-campus"
-    },
-    {
-      "id": 9,
-      "title": "Hospital Complex",
-      "description": "A multi-specialty hospital complex equipped with the latest medical technology and facilities.",
-      "image": "hospital_complex.jpg",
-      "slug": "hospital-complex"
-    },
-    {
-      "id": 10,
-      "title": "Luxury Villa",
-      "description": "A luxury villa with high-end amenities and stunning architectural design.",
-      "image": "luxury_villa.jpg",
-      "slug": "luxury-villa"
-    },
-    {
-      "id": 11,
-      "title": "Parking Garage",
-      "description": "A multi-level parking garage with automated parking systems and security features.",
-      "image": "parking_garage.jpg",
-      "slug": "parking-garage"
-    },
-    {
-      "id": 12,
-      "title": "Sports Complex",
-      "description": "A sports complex with indoor and outdoor facilities for various sports and recreational activities.",
-      "image": "sports_complex.jpg",
-      "slug": "sports-complex"
-    },
-    {
-      "id": 13,
-      "title": "Museum",
-      "description": "A modern museum with interactive exhibits and state-of-the-art displays.",
-      "image": "museum.jpg",
-      "slug": "museum"
-    },
-    {
-      "id": 14,
-      "title": "Library",
-      "description": "A contemporary library with a vast collection of books, digital resources, and study spaces.",
-      "image": "library.jpg",
-      "slug": "library"
-    },
-    {
-      "id": 15,
-      "title": "Convention Center",
-      "description": "A large convention center with multiple event spaces, meeting rooms, and conference facilities.",
-      "image": "convention_center.jpg",
-      "slug": "convention-center"
-    },
-    {
-      "id": 16,
-      "title": "Apartment Complex",
-      "description": "A modern apartment complex with various amenities and community spaces.",
-      "image": "apartment_complex.jpg",
-      "slug": "apartment-complex"
-    },
-    {
-      "id": 17,
-      "title": "Retail Store",
-      "description": "A standalone retail store designed with a focus on customer experience and convenience.",
-      "image": "retail_store.jpg",
-      "slug": "retail-store"
-    },
-    {
-      "id": 18,
-      "title": "Cinema Hall",
-      "description": "A cinema hall with the latest audio-visual technology and comfortable seating arrangements.",
-      "image": "cinema_hall.jpg",
-      "slug": "cinema-hall"
-    },
-    {
-      "id": 19,
-      "title": "Resort",
-      "description": "A luxurious resort offering a range of leisure activities and premium accommodations.",
-      "image": "resort.jpg",
-      "slug": "resort"
-    },
-    {
-      "id": 20,
-      "title": "Factory",
-      "description": "A high-tech factory with advanced manufacturing equipment and automation systems.",
-      "image": "factory.jpg",
-      "slug": "factory"
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "title": "Residential Building",
+    "description": "A multi-story residential building providing modern amenities and sustainable living solutions.",
+    "image": "residential_building.jpg",
+    "slug": "residential-building"
+  },
+  {
+    "id": 2,
+    "title": "Commercial Complex",
+    "description": "A state-of-the-art commercial complex with energy-efficient features and ample parking space.",
+    "image": "commercial_complex.jpg",
+    "slug": "commercial-complex"
+  },
+  {
+    "id": 3,
+    "title": "Bridge Construction",
+    "description": "A high-capacity bridge designed to withstand heavy traffic and harsh weather conditions.",
+    "image": "bridge_construction.jpg",
+    "slug": "bridge-construction"
+  },
+  {
+    "id": 4,
+    "title": "Renovation Project",
+    "description": "Complete renovation of an old heritage building, preserving its historical value while adding modern facilities.",
+    "image": "renovation_project.jpg",
+    "slug": "renovation-project"
+  },
+  {
+    "id": 5,
+    "title": "Industrial Warehouse",
+    "description": "Construction of a large industrial warehouse with advanced storage solutions and logistics support.",
+    "image": "industrial_warehouse.jpg",
+    "slug": "industrial-warehouse"
+  },
+  {
+    "id": 6,
+    "title": "Office Building",
+    "description": "A modern office building with open floor plans and eco-friendly features.",
+    "image": "office_building.jpg",
+    "slug": "office-building"
+  },
+  {
+    "id": 7,
+    "title": "Shopping Mall",
+    "description": "A large shopping mall with a variety of retail stores, food courts, and entertainment options.",
+    "image": "shopping_mall.jpg",
+    "slug": "shopping-mall"
+  },
+  {
+    "id": 8,
+    "title": "School Campus",
+    "description": "A state-of-the-art school campus with modern classrooms, laboratories, and sports facilities.",
+    "image": "school_campus.jpg",
+    "slug": "school-campus"
+  },
+  {
+    "id": 9,
+    "title": "Hospital Complex",
+    "description": "A multi-specialty hospital complex equipped with the latest medical technology and facilities.",
+    "image": "hospital_complex.jpg",
+    "slug": "hospital-complex"
+  },
+  {
+    "id": 10,
+    "title": "Luxury Villa",
+    "description": "A luxury villa with high-end amenities and stunning architectural design.",
+    "image": "luxury_villa.jpg",
+    "slug": "luxury-villa"
+  },
+  {
+    "id": 11,
+    "title": "Parking Garage",
+    "description": "A multi-level parking garage with automated parking systems and security features.",
+    "image": "parking_garage.jpg",
+    "slug": "parking-garage"
+  },
+  {
+    "id": 12,
+    "title": "Sports Complex",
+    "description": "A sports complex with indoor and outdoor facilities for various sports and recreational activities.",
+    "image": "sports_complex.jpg",
+    "slug": "sports-complex"
+  },
+  {
+    "id": 13,
+    "title": "Museum",
+    "description": "A modern museum with interactive exhibits and state-of-the-art displays.",
+    "image": "museum.jpg",
+    "slug": "museum"
+  },
+  {
+    "id": 14,
+    "title": "Library",
+    "description": "A contemporary library with a vast collection of books, digital resources, and study spaces.",
+    "image": "library.jpg",
+    "slug": "library"
+  },
+  {
+    "id": 15,
+    "title": "Convention Center",
+    "description": "A large convention center with multiple event spaces, meeting rooms, and conference facilities.",
+    "image": "convention_center.jpg",
+    "slug": "convention-center"
+  },
+  {
+    "id": 16,
+    "title": "Apartment Complex",
+    "description": "A modern apartment complex with various amenities and community spaces.",
+    "image": "apartment_complex.jpg",
+    "slug": "apartment-complex"
+  },
+  {
+    "id": 17,
+    "title": "Retail Store",
+    "description": "A standalone retail store designed with a focus on customer experience and convenience.",
+    "image": "retail_store.jpg",
+    "slug": "retail-store"
+  },
+  {
+    "id": 18,
+    "title": "Cinema Hall",
+    "description": "A cinema hall with the latest audio-visual technology and comfortable seating arrangements.",
+    "image": "cinema_hall.jpg",
+    "slug": "cinema-hall"
+  },
+  {
+    "id": 19,
+    "title": "Resort",
+    "description": "A luxurious resort offering a range of leisure activities and premium accommodations.",
+    "image": "resort.jpg",
+    "slug": "resort"
+  },
+  {
+    "id": 20,
+    "title": "Factory",
+    "description": "A high-tech factory with advanced manufacturing equipment and automation systems.",
+    "image": "factory.jpg",
+    "slug": "factory"
+  }
+]

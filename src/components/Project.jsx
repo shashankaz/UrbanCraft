@@ -24,80 +24,34 @@ const Project = () => {
       <div className="flex flex-col gap-4">
         <div className="flex md:flex-row flex-col gap-4">
           {loading ? (
-            <div
-              id="card"
-              className="md:w-[50%] w-full h-[250px] bg-[#c4c4c4] animate-pulse"
-            ></div>
+            <>
+              <ProjectOneSkeleton />
+              <ProjectOneSkeleton />
+            </>
           ) : (
-            <div id="card" className="md:w-[50%] w-full h-[250px] bg-[#c4c4c4]">
-              <img
-                className="w-full h-full object-cover"
-                src={project_1}
-                alt=""
-              />
-            </div>
-          )}
-          {loading ? (
-            <div
-              id="card"
-              className="md:w-[50%] w-full h-[250px] bg-[#c4c4c4] animate-pulse"
-            ></div>
-          ) : (
-            <div id="card" className="md:w-[50%] w-full h-[250px] bg-[#c4c4c4]">
-              <img
-                className="w-full h-full object-cover"
-                src={project_2}
-                alt=""
-              />
-            </div>
+            <>
+              <ProjectOne project_img={project_1} />
+              <ProjectOne project_img={project_2} />
+            </>
           )}
         </div>
         <div className="flex md:flex-row flex-col gap-4">
           {loading ? (
-            <div
-              id="card"
-              className="md:w-[33%] w-full h-[250px] bg-[#c4c4c4] animate-pulse"
-            ></div>
+            <>
+              <ProjectTwoSkeleton />
+              <ProjectTwoSkeleton />
+              <ProjectTwoSkeleton />
+            </>
           ) : (
-            <div id="card" className="md:w-[33%] w-full h-[250px] bg-[#c4c4c4]">
-              <img
-                className="w-full h-full object-cover"
-                src={project_3}
-                alt=""
-              />
-            </div>
-          )}
-          {loading ? (
-            <div
-              id="card"
-              className="md:w-[33%] w-full h-[250px] bg-[#c4c4c4] animate-pulse"
-            ></div>
-          ) : (
-            <div id="card" className="md:w-[33%] w-full h-[250px] bg-[#c4c4c4]">
-              <img
-                className="w-full h-full object-cover"
-                src={project_4}
-                alt=""
-              />
-            </div>
-          )}
-          {loading ? (
-            <div
-              id="card"
-              className="md:w-[33%] w-full h-[250px] bg-[#c4c4c4] animate-pulse"
-            ></div>
-          ) : (
-            <div id="card" className="md:w-[33%] w-full h-[250px] bg-[#c4c4c4]">
-              <img
-                className="w-full h-full object-cover"
-                src={project_5}
-                alt=""
-              />
-            </div>
+            <>
+              <ProjectTwo project_img={project_3} />
+              <ProjectTwo project_img={project_4} />
+              <ProjectTwo project_img={project_5} />
+            </>
           )}
         </div>
       </div>
-      <div className="flex justify-end">
+      <div className="flex md:justify-end">
         <Link to="/projects">
           <div className="bg-[#333] text-white flex items-center justify-center gap-4 uppercase font-light w-[250px] h-[70px] mt-[50px]">
             All Projects
@@ -105,6 +59,48 @@ const Project = () => {
           </div>
         </Link>
       </div>
+    </div>
+  );
+};
+
+const ProjectOneSkeleton = () => {
+  return (
+    <div
+      id="card"
+      className="md:w-[50%] w-full h-[250px] bg-[#c4c4c4] animate-pulse"
+    ></div>
+  );
+};
+
+const ProjectOne = (props) => {
+  return (
+    <div id="card" className="md:w-[50%] w-full h-[250px] bg-[#c4c4c4]">
+      <img
+        className="w-full h-full object-cover"
+        src={props.project_img}
+        alt=""
+      />
+    </div>
+  );
+};
+
+const ProjectTwoSkeleton = () => {
+  return (
+    <div
+      id="card"
+      className="md:w-[33%] w-full h-[250px] bg-[#c4c4c4] animate-pulse"
+    ></div>
+  );
+};
+
+const ProjectTwo = (props) => {
+  return (
+    <div id="card" className="md:w-[33%] w-full h-[250px] bg-[#c4c4c4]">
+      <img
+        className="w-full h-full object-cover"
+        src={props.project_img}
+        alt=""
+      />
     </div>
   );
 };

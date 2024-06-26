@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "title": "Residential Building",
+    "image": "residential_building.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Commercial Complex",
+    "image": "commercial_complex.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Bridge Construction",
+    "image": "bridge_construction.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Renovation Project",
+    "image": "renovation_project.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Industrial Warehouse",
+    "image": "industrial_warehouse.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Office Building",
+    "image": "office_building.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Shopping Mall",
+    "image": "shopping_mall.jpg"
+  },
+  {
+    "id": 8,
+    "title": "School Campus",
+    "image": "school_campus.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Hospital Complex",
+    "image": "hospital_complex.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Luxury Villa",
+    "image": "luxury_villa.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Parking Garage",
+    "image": "parking_garage.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Sports Complex",
+    "image": "sports_complex.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Museum",
+    "image": "museum.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Library",
+    "image": "library.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Convention Center",
+    "image": "convention_center.jpg"
+  },
+  {
+    "id": 16,
+    "title": "Apartment Complex",
+    "image": "apartment_complex.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Retail Store",
+    "image": "retail_store.jpg"
+  },
+  {
+    "id": 18,
+    "title": "Cinema Hall",
+    "image": "cinema_hall.jpg"
+  },
+  {
+    "id": 19,
+    "title": "Resort",
+    "image": "resort.jpg"
+  },
+  {
+    "id": 20,
+    "title": "Factory",
+    "image": "factory.jpg"
+  }
+]

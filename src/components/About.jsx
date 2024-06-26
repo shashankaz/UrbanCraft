@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { BsArrowRight } from "react-icons/bs";
+import { Link } from "react-router-dom";
 import about_1 from "../assets/about_1.jpg";
 import about_2 from "../assets/about_2.jpg";
 import about_3 from "../assets/about_3.jpg";
-import { Link } from "react-router-dom";
 
 const About = () => {
   const [loading, setLoading] = useState(true);
@@ -19,39 +19,25 @@ const About = () => {
       <div className="flex items-center gap-4">
         <div className="flex md:flex-col flex-row md:gap-4 gap-2">
           {loading ? (
-            <div className="md:w-[250px] w-[50%] h-[250px] bg-[#c4c4c4] animate-pulse"></div>
+            <>
+              <Skeleton className="md:w-[250px] w-[50%] h-[250px]" />
+              <Skeleton className="md:w-[250px] w-[50%] h-[250px]" />
+            </>
           ) : (
-            <div className="md:w-[250px] w-[50%] h-[250px] bg-[#c4c4c4]">
-              <img
-                className="h-full w-full object-cover"
-                src={about_1}
-                alt=""
-              />
-            </div>
-          )}
-          {loading ? (
-            <div className="md:w-[250px] w-[50%] h-[250px] bg-[#c4c4c4] animate-pulse"></div>
-          ) : (
-            <div className="md:w-[250px] w-[50%] h-[250px] bg-[#c4c4c4]">
-              <img
-                className="h-full w-full object-cover"
-                src={about_2}
-                alt=""
-              />
-            </div>
+            <>
+              <Image src={about_1} className="md:w-[250px] w-[50%] h-[250px]" />
+              <Image src={about_2} className="md:w-[250px] w-[50%] h-[250px]" />
+            </>
           )}
         </div>
         <div>
           {loading ? (
-            <div className="md:w-[250px] w-full md:h-[300px] h-[250px] bg-[#c4c4c4] animate-pulse"></div>
+            <Skeleton className="md:w-[250px] w-full md:h-[300px] h-[250px]" />
           ) : (
-            <div className="md:w-[250px] w-full md:h-[300px] h-[250px] bg-[#c4c4c4]">
-              <img
-                className="h-full w-full object-cover"
-                src={about_3}
-                alt=""
-              />
-            </div>
+            <Image
+              src={about_3}
+              className="md:w-[250px] w-full md:h-[300px] h-[250px]"
+            />
           )}
         </div>
       </div>
@@ -73,6 +59,18 @@ const About = () => {
           </div>
         </Link>
       </div>
+    </div>
+  );
+};
+
+const Skeleton = ({ className }) => {
+  return <div className={`${className} bg-[#c4c4c4] animate-pulse`}></div>;
+};
+
+const Image = ({ src, className }) => {
+  return (
+    <div className={`${className} bg-[#c4c4c4]`}>
+      <img className="h-full w-full object-cover" src={src} alt="" />
     </div>
   );
 };
