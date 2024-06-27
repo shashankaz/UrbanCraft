@@ -3,140 +3,160 @@
     "id": 1,
     "title": "Residential Building",
     "description": "A multi-story residential building providing modern amenities and sustainable living solutions.",
-    "image": "residential_building.jpg",
+    "long_description": "This residential building project features state-of-the-art construction techniques and materials to ensure durability and sustainability. It includes a variety of modern amenities such as a gym, swimming pool, and community hall. The building is designed to maximize natural light and ventilation, providing a comfortable living environment for residents.",
+    "image": "projects/residential_building.jpg",
     "slug": "residential-building"
   },
   {
     "id": 2,
     "title": "Commercial Complex",
     "description": "A state-of-the-art commercial complex with energy-efficient features and ample parking space.",
-    "image": "commercial_complex.jpg",
+    "long_description": "The commercial complex is designed with cutting-edge technology and eco-friendly materials to create a sustainable and efficient business environment. It includes retail spaces, office units, and ample parking facilities. The complex also features green spaces and leisure areas to enhance the work-life balance of employees.",
+    "image": "projects/commercial_complex.jpg",
     "slug": "commercial-complex"
   },
   {
     "id": 3,
     "title": "Bridge Construction",
     "description": "A high-capacity bridge designed to withstand heavy traffic and harsh weather conditions.",
-    "image": "bridge_construction.jpg",
+    "long_description": "This bridge construction project utilizes advanced engineering techniques to ensure stability and durability under heavy traffic conditions. The bridge is built with high-strength materials to withstand extreme weather and seismic activities. It also includes pedestrian walkways and cycle paths to promote sustainable transportation.",
+    "image": "projects/bridge_construction.jpg",
     "slug": "bridge-construction"
   },
   {
     "id": 4,
     "title": "Renovation Project",
     "description": "Complete renovation of an old heritage building, preserving its historical value while adding modern facilities.",
-    "image": "renovation_project.jpg",
+    "long_description": "The renovation project focuses on restoring the historical integrity of the heritage building while integrating modern amenities and safety features. The project includes structural reinforcements, updated electrical and plumbing systems, and accessibility improvements. The goal is to preserve the building's historical charm while making it suitable for contemporary use.",
+    "image": "projects/renovation_project.jpg",
     "slug": "renovation-project"
   },
   {
     "id": 5,
     "title": "Industrial Warehouse",
     "description": "Construction of a large industrial warehouse with advanced storage solutions and logistics support.",
-    "image": "industrial_warehouse.jpg",
+    "long_description": "This industrial warehouse project is designed to provide efficient storage solutions with the latest logistics and inventory management systems. The warehouse includes climate-controlled storage areas, automated handling equipment, and robust security measures. It aims to optimize operational efficiency and accommodate various industrial needs.",
+    "image": "projects/industrial_warehouse.jpg",
     "slug": "industrial-warehouse"
   },
   {
     "id": 6,
     "title": "Office Building",
     "description": "A modern office building with open floor plans and eco-friendly features.",
-    "image": "office_building.jpg",
+    "long_description": "The office building project emphasizes flexibility and sustainability with open floor plans, natural lighting, and energy-efficient systems. It includes collaborative workspaces, conference rooms, and recreational areas to foster a productive and healthy work environment. The building is also equipped with smart technology for efficient energy management.",
+    "image": "projects/office_building.jpg",
     "slug": "office-building"
   },
   {
     "id": 7,
     "title": "Shopping Mall",
     "description": "A large shopping mall with a variety of retail stores, food courts, and entertainment options.",
-    "image": "shopping_mall.jpg",
+    "long_description": "The shopping mall project is designed to be a one-stop destination for shopping, dining, and entertainment. It features a diverse range of retail stores, food courts, and entertainment options such as cinemas and play areas. The mall is built with modern architectural design and includes ample parking facilities and security measures.",
+    "image": "projects/shopping_mall.jpg",
     "slug": "shopping-mall"
   },
   {
     "id": 8,
     "title": "School Campus",
     "description": "A state-of-the-art school campus with modern classrooms, laboratories, and sports facilities.",
-    "image": "school_campus.jpg",
+    "long_description": "The school campus project aims to provide a comprehensive educational environment with modern classrooms, well-equipped laboratories, and extensive sports facilities. The campus includes green spaces, libraries, and tech-enabled learning spaces to support holistic student development. Safety and accessibility are prioritized throughout the design.",
+    "image": "projects/school_campus.jpg",
     "slug": "school-campus"
   },
   {
     "id": 9,
     "title": "Hospital Complex",
     "description": "A multi-specialty hospital complex equipped with the latest medical technology and facilities.",
-    "image": "hospital_complex.jpg",
+    "long_description": "The hospital complex project focuses on delivering high-quality healthcare services with advanced medical technology and comprehensive facilities. It includes specialized departments, modern operating rooms, and patient-friendly amenities. The design ensures efficient workflows for medical staff and a comfortable environment for patients and visitors.",
+    "image": "projects/hospital_complex.jpg",
     "slug": "hospital-complex"
   },
   {
     "id": 10,
     "title": "Luxury Villa",
     "description": "A luxury villa with high-end amenities and stunning architectural design.",
-    "image": "luxury_villa.jpg",
+    "long_description": "The luxury villa project combines opulence with functionality, featuring high-end amenities such as private pools, landscaped gardens, and smart home systems. The architectural design is tailored to provide aesthetic appeal and comfort. The villa offers a serene living experience with luxurious interiors and personalized services.",
+    "image": "projects/luxury_villa.jpg",
     "slug": "luxury-villa"
   },
   {
     "id": 11,
     "title": "Parking Garage",
     "description": "A multi-level parking garage with automated parking systems and security features.",
-    "image": "parking_garage.jpg",
+    "long_description": "The parking garage project aims to provide efficient and secure parking solutions with multiple levels and automated systems. It includes features such as surveillance cameras, automated ticketing, and easy access points. The design ensures maximum capacity utilization and safety for vehicles and users.",
+    "image": "projects/parking_garage.jpg",
     "slug": "parking-garage"
   },
   {
     "id": 12,
     "title": "Sports Complex",
     "description": "A sports complex with indoor and outdoor facilities for various sports and recreational activities.",
-    "image": "sports_complex.jpg",
+    "long_description": "The sports complex project offers a wide range of facilities for different sports and recreational activities, including indoor courts, outdoor fields, and fitness centers. It is designed to promote physical activity and community engagement. The complex includes seating areas, locker rooms, and refreshment zones.",
+    "image": "projects/sports_complex.jpg",
     "slug": "sports-complex"
   },
   {
     "id": 13,
     "title": "Museum",
     "description": "A modern museum with interactive exhibits and state-of-the-art displays.",
-    "image": "museum.jpg",
+    "long_description": "The museum project focuses on providing an educational and engaging experience with interactive exhibits and advanced display technologies. It includes galleries, educational spaces, and visitor amenities. The design ensures accessibility and incorporates elements to preserve and showcase historical and cultural artifacts.",
+    "image": "projects/museum.jpg",
     "slug": "museum"
   },
   {
     "id": 14,
     "title": "Library",
     "description": "A contemporary library with a vast collection of books, digital resources, and study spaces.",
-    "image": "library.jpg",
+    "long_description": "The library project is designed to support lifelong learning with a vast collection of physical and digital resources. It includes reading rooms, study areas, and technology-enabled research facilities. The library also offers community programs and events to foster knowledge sharing and engagement.",
+    "image": "projects/library.jpg",
     "slug": "library"
   },
   {
     "id": 15,
     "title": "Convention Center",
     "description": "A large convention center with multiple event spaces, meeting rooms, and conference facilities.",
-    "image": "convention_center.jpg",
+    "long_description": "The convention center project is designed to host a variety of events, from conferences to exhibitions, with flexible event spaces and modern amenities. It includes meeting rooms, banquet halls, and technical support services. The center is equipped with the latest technology for seamless event management and guest convenience.",
+    "image": "projects/convention_center.jpg",
     "slug": "convention-center"
   },
   {
     "id": 16,
     "title": "Apartment Complex",
     "description": "A modern apartment complex with various amenities and community spaces.",
-    "image": "apartment_complex.jpg",
+    "long_description": "The apartment complex project offers contemporary living spaces with amenities such as swimming pools, gyms, and community centers. It is designed to provide a comfortable and convenient lifestyle with secure access and green spaces. The apartments feature modern interiors and smart home systems for enhanced living.",
+    "image": "projects/apartment_complex.jpg",
     "slug": "apartment-complex"
   },
   {
     "id": 17,
     "title": "Retail Store",
     "description": "A standalone retail store designed with a focus on customer experience and convenience.",
-    "image": "retail_store.jpg",
+    "long_description": "The retail store project emphasizes customer experience with an intuitive layout, modern design, and convenient facilities. It includes display areas, checkout points, and storage rooms. The store is designed to enhance the shopping experience with efficient navigation and accessibility features.",
+    "image": "projects/retail_store.jpg",
     "slug": "retail-store"
   },
   {
     "id": 18,
     "title": "Cinema Hall",
     "description": "A cinema hall with the latest audio-visual technology and comfortable seating arrangements.",
-    "image": "cinema_hall.jpg",
+    "long_description": "The cinema hall project aims to provide an immersive movie-watching experience with advanced audio-visual technology and ergonomic seating. It includes multiple screens, concession stands, and lounge areas. The design ensures acoustics and visibility are optimized for audience comfort and enjoyment.",
+    "image": "projects/cinema_hall.jpg",
     "slug": "cinema-hall"
   },
   {
     "id": 19,
     "title": "Resort",
     "description": "A luxurious resort offering a range of leisure activities and premium accommodations.",
-    "image": "resort.jpg",
+    "long_description": "The resort project combines luxury and relaxation with premium accommodations and diverse leisure activities. It includes guest rooms, villas, dining options, and recreational facilities such as spas and pools. The resort is designed to provide a serene and rejuvenating experience for guests.",
+    "image": "projects/resort.jpg",
     "slug": "resort"
   },
   {
     "id": 20,
     "title": "Factory",
     "description": "A high-tech factory with advanced manufacturing equipment and automation systems.",
-    "image": "factory.jpg",
+    "long_description": "The factory project focuses on optimizing production efficiency with advanced manufacturing equipment and automation systems. It includes production lines, quality control labs, and logistics support areas. The factory is designed to meet industry standards and ensure sustainable and efficient operations.",
+    "image": "projects/factory.jpg",
     "slug": "factory"
   }
 ]

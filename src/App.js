@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 const Home = lazy(() => import("./pages/Home"));
 const Gallery = lazy(() => import("./pages/Gallery"));
 const Projects = lazy(() => import("./pages/Projects"));
+const ProjectDetail = lazy(() => import("./pages/ProjectDetail"));
 const Certifications = lazy(() => import("./pages/Certifications"));
 const Contacts = lazy(() => import("./pages/Contacts"));
 const NotFound = lazy(() => import("./pages/NotFound"));
@@ -17,12 +18,13 @@ const App = () => {
     <div>
       <Router>
         <Suspense fallback={<Loader />}>
-        <Scrollbar />
+          <Scrollbar />
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/projects" element={<Projects />} />
+            <Route path="/projects/:slug" element={<ProjectDetail />} />
             <Route path="/certifications" element={<Certifications />} />
             <Route path="/contacts" element={<Contacts />} />
             <Route path="*" element={<NotFound />} />

@@ -2,101 +2,201 @@
   {
     "id": 1,
     "title": "Residential Building",
-    "image": "residential_building.jpg"
+    "image": "gallery/photo (1).jpg"
   },
   {
     "id": 2,
     "title": "Commercial Complex",
-    "image": "commercial_complex.jpg"
+    "image": "gallery/photo (2).jpg"
   },
   {
     "id": 3,
     "title": "Bridge Construction",
-    "image": "bridge_construction.jpg"
+    "image": "gallery/photo (3).jpg"
   },
   {
     "id": 4,
     "title": "Renovation Project",
-    "image": "renovation_project.jpg"
+    "image": "gallery/photo (4).jpg"
   },
   {
     "id": 5,
     "title": "Industrial Warehouse",
-    "image": "industrial_warehouse.jpg"
+    "image": "gallery/photo (5).jpg"
   },
   {
     "id": 6,
     "title": "Office Building",
-    "image": "office_building.jpg"
+    "image": "gallery/photo (6).jpg"
   },
   {
     "id": 7,
     "title": "Shopping Mall",
-    "image": "shopping_mall.jpg"
+    "image": "gallery/photo (7).jpg"
   },
   {
     "id": 8,
     "title": "School Campus",
-    "image": "school_campus.jpg"
+    "image": "gallery/photo (8).jpg"
   },
   {
     "id": 9,
     "title": "Hospital Complex",
-    "image": "hospital_complex.jpg"
+    "image": "gallery/photo (9).jpg"
   },
   {
     "id": 10,
     "title": "Luxury Villa",
-    "image": "luxury_villa.jpg"
+    "image": "gallery/photo (10).jpg"
   },
   {
     "id": 11,
     "title": "Parking Garage",
-    "image": "parking_garage.jpg"
+    "image": "gallery/photo (11).jpg"
   },
   {
     "id": 12,
     "title": "Sports Complex",
-    "image": "sports_complex.jpg"
+    "image": "gallery/photo (12).jpg"
   },
   {
     "id": 13,
     "title": "Museum",
-    "image": "museum.jpg"
+    "image": "gallery/photo (13).jpg"
   },
   {
     "id": 14,
     "title": "Library",
-    "image": "library.jpg"
+    "image": "gallery/photo (14).jpg"
   },
   {
     "id": 15,
     "title": "Convention Center",
-    "image": "convention_center.jpg"
+    "image": "gallery/photo (15).jpg"
   },
   {
     "id": 16,
     "title": "Apartment Complex",
-    "image": "apartment_complex.jpg"
+    "image": "gallery/photo (16).jpg"
   },
   {
     "id": 17,
     "title": "Retail Store",
-    "image": "retail_store.jpg"
+    "image": "gallery/photo (17).jpg"
   },
   {
     "id": 18,
     "title": "Cinema Hall",
-    "image": "cinema_hall.jpg"
+    "image": "gallery/photo (18).jpg"
   },
   {
     "id": 19,
     "title": "Resort",
-    "image": "resort.jpg"
+    "image": "gallery/photo (19).jpg"
   },
   {
     "id": 20,
     "title": "Factory",
-    "image": "factory.jpg"
+    "image": "gallery/photo (20).jpg"
+  },
+  {
+    "id": 21,
+    "title": "Skyscraper",
+    "image": "gallery/photo (21).jpg"
+  },
+  {
+    "id": 22,
+    "title": "Swimming Pool",
+    "image": "gallery/photo (22).jpg"
+  },
+  {
+    "id": 23,
+    "title": "Golf Course",
+    "image": "gallery/photo (23).jpg"
+  },
+  {
+    "id": 24,
+    "title": "Playground",
+    "image": "gallery/photo (24).jpg"
+  },
+  {
+    "id": 25,
+    "title": "Community Center",
+    "image": "gallery/photo (25).jpg"
+  },
+  {
+    "id": 26,
+    "title": "Fire Station",
+    "image": "gallery/photo (26).jpg"
+  },
+  {
+    "id": 27,
+    "title": "Police Station",
+    "image": "gallery/photo (27).jpg"
+  },
+  {
+    "id": 28,
+    "title": "Railway Station",
+    "image": "gallery/photo (28).jpg"
+  },
+  {
+    "id": 29,
+    "title": "Bus Terminal",
+    "image": "gallery/photo (29).jpg"
+  },
+  {
+    "id": 30,
+    "title": "Metro Station",
+    "image": "gallery/photo (30).jpg"
+  },
+  {
+    "id": 31,
+    "title": "Subway Station",
+    "image": "gallery/photo (31).jpg"
+  },
+  {
+    "id": 32,
+    "title": "Hotel",
+    "image": "gallery/photo (32).jpg"
+  },
+  {
+    "id": 33,
+    "title": "Hostel",
+    "image": "gallery/photo (33).jpg"
+  },
+  {
+    "id": 34,
+    "title": "Guest House",
+    "image": "gallery/photo (34).jpg"
+  },
+  {
+    "id": 35,
+    "title": "Cottage",
+    "image": "gallery/photo (35).jpg"
+  },
+  {
+    "id": 36,
+    "title": "Farmhouse",
+    "image": "gallery/photo (36).jpg"
+  },
+  {
+    "id": 37,
+    "title": "Stadium",
+    "image": "gallery/photo (37).jpg"
+  },
+  {
+    "id": 38,
+    "title": "Amusement Park",
+    "image": "gallery/photo (38).jpg"
+  },
+  {
+    "id": 39,
+    "title": "Zoo",
+    "image": "gallery/photo (39).jpg"
+  },
+  {
+    "id": 40,
+    "title": "Aquarium",
+    "image": "gallery/photo (40).jpg"
   }
 ]
