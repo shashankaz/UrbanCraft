@@ -25,7 +25,7 @@ const Navbar = () => {
             </div>
           </Link>
         </div>
-        <div className="md:flex hidden text-[#333] uppercase gap-10">
+        <nav className="md:flex hidden text-[#333] uppercase gap-10 stroke">
           <ul className="flex gap-10">
             <li className="px-[5px]">
               <NavLink to="/">Main</NavLink>
@@ -43,7 +43,7 @@ const Navbar = () => {
               <NavLink to="/contacts">Contacts</NavLink>
             </li>
           </ul>
-        </div>
+        </nav>
         <div className="md:hidden flex text-2xl">
           <button onClick={handleMenuToggle}>
             {isMenuOpen ? <RxCross1 /> : <RxHamburgerMenu />}

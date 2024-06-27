@@ -7,11 +7,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
-}
-
-.active {
-  padding-bottom: 5px;
-  border-bottom: 2px solid #333;
+  scroll-behavior: smooth;
 }
 
 /* Chrome, Safari, Edge, Opera */
@@ -24,4 +20,81 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type="number"] {
   -moz-appearance: textfield;
+}
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all 0.5s;
+}
+
+/* stroke */
+nav.stroke ul li a {
+  position: relative;
+  padding-bottom: 5px;
+  overflow: auto;
+}
+
+nav.stroke ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 0%;
+  content: ".";
+  color: transparent;
+  background: #333;
+  height: 2px;
+}
+
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+
+.main-btn {
+  font-family: inherit;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  background-color: #000;
+  color: #fff;
+}
+
+.main-btn span {
+  position: relative;
+  z-index: 10;
+  transition: color 0.4s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.main-btn:hover span {
+  color: white;
+}
+
+.main-btn::before,
+.main-btn::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.main-btn::before {
+  content: "";
+  background: #333;
+  width: 120%;
+  left: -10%;
+  transform: skew(30deg);
+  transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+
+.main-btn:hover::before {
+  transform: translate3d(100%, 0, 0);
 }

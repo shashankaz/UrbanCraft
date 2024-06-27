@@ -11,7 +11,7 @@ const About = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 4000);
+    }, 2000);
   }, []);
 
   return (
@@ -42,16 +42,17 @@ const About = () => {
         </div>
       </div>
       <div className="flex flex-col gap-4 md:w-[400px] w-full">
-        <div className="text-5xl">
+        <div className="md:text-5xl text-4xl">
           <h1 className="uppercase font-light text-[#777]">About</h1>
         </div>
         <div>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
-          repellendus cum consequuntur facere vel dignissimos corrupti id sed
-          esse voluptate perspiciatis praesentium blanditiis, molestias rem et
-          at expedita adipisci consequatur temporibus alias ullam laborum culpa
-          nobis? Nihil, esse dignissimos. Vitae modi impedit aut dolorum sequi
-          quo at quisquam ipsam quasi!
+          UrbanCraft is a leader in innovative construction solutions, committed
+          to blending sustainability with exceptional craftsmanship. We
+          specialize in residential, commercial, and industrial projects,
+          delivering high-quality structures that meet today's needs and
+          anticipate tomorrow's demands. Our dedicated team focuses on creating
+          impactful, eco-friendly spaces that enhance communities and promote a
+          greener future. Join us in building a better, more sustainable world.
         </div>
         <Link to="/about">
           <div className="bg-white flex items-center justify-center gap-4 uppercase font-light w-[200px] h-[70px]">

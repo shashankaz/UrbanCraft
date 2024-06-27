@@ -24,7 +24,7 @@ const Contact = () => {
 
   return (
     <div className="my-[50px] flex flex-col">
-      <div className="text-5xl my-[50px]">
+      <div className="md:text-5xl text-4xl my-[50px]">
         <h1 className="uppercase font-light text-[#777]">Contact Us</h1>
       </div>
       <div className="flex md:flex-row flex-col-reverse justify-between gap-4">
@@ -73,10 +73,12 @@ const Contact = () => {
             onChange={(e) => setMessage(e.target.value)}
           ></textarea>
           <button
-            className="bg-[#333] text-white flex items-center justify-center gap-4 uppercase font-light w-[220px] h-[70px] mt-[50px]"
+            className="w-[220px] h-[70px] mt-[50px] main-btn"
             type="submit"
           >
-            Send Email <BsArrowRight />
+            <span>
+              Send Email <BsArrowRight />
+            </span>
           </button>
         </form>
       </div>

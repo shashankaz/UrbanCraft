@@ -13,12 +13,12 @@ const Project = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 5000);
+    }, 3000);
   }, []);
 
   return (
     <div className="my-[50px] flex flex-col">
-      <div className="text-5xl my-[50px]">
+      <div className="md:text-5xl text-4xl my-[50px]">
         <h5 className="uppercase font-light text-[#777]">Our Projects</h5>
       </div>
       <div className="flex flex-col gap-4">
@@ -53,10 +53,12 @@ const Project = () => {
       </div>
       <div className="flex md:justify-end">
         <Link to="/projects">
-          <div className="bg-[#333] text-white flex items-center justify-center gap-4 uppercase font-light w-[250px] h-[70px] mt-[50px]">
-            All Projects
-            <BsArrowRight />
-          </div>
+          <button className="w-[250px] h-[70px] mt-[50px] main-btn">
+            <span>
+              All Projects
+              <BsArrowRight />
+            </span>
+          </button>
         </Link>
       </div>
     </div>
